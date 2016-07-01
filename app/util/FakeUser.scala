@@ -25,6 +25,7 @@ final class FakeUser @Inject()(config: OreConfig) {
     _name        =   conf.getString("fakeUser.name"),
     _username    =   conf.getString("fakeUser.username").get,
     _email       =   conf.getString("fakeUser.email"),
+    _avatarUrl   =   conf.getString("fakeUser.avatar"),
     _joinDate    =   Some(new Timestamp(new Date().getTime)),
     _globalRoles =   List(RoleTypes.Admin)
   ) else null

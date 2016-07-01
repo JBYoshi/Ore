@@ -11,6 +11,7 @@ application.fakeUser.id         =   -1
 application.fakeUser.name       =   "Spongie"
 application.fakeUser.username   =   "Spongie"
 application.fakeUser.email      =   "spongie@spongepowered.org"
+application.fakeUser.avatar     =   "https://www.spongepowered.org/assets/img/icons/spongie-mark.png"
 application.db.default-timeout  =   10
 
 
